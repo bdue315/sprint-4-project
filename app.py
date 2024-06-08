@@ -56,8 +56,8 @@ price_miles_scatter = px.scatter(vehicles_df,
 
 #Streamlit code
 
-st.header('Used Vehicles Dataset', anchor=False, divider='rainbow')
-st.header('Comprehensive Vehicle Pricing Information', anchor=False, divider=False)
+st.header('Used Vehicles Dataset')
+st.header('Comprehensive Vehicle Pricing Information')
 
 st.write('Prices')
 st.plotly_chart(price_histo, theme = 'streamlit')
