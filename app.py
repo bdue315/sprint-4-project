@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-vehicles_df = pd.read_csv("/Users/bridgetdue/sprint_4_project/vehicles_us.csv")
+vehicles_df = pd.read_csv("vehicles_us.csv")
 
 #Replace missing values 
 
