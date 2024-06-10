@@ -115,8 +115,8 @@ price_miles_outliers = px.scatter(filtered_outliers_df,
 
 #Checkbok option to view second visualization with outliers removed
 outliers_1 = st.checkbox("View this chart with outliers removed")
-    if outliers_1:
-        st.plotly_chart(price_miles_outliers)
+if outliers_1:
+    st.plotly_chart(price_miles_outliers)
 
 
 #Third visualization (Prices vs Days Listed) for web app
@@ -147,9 +147,9 @@ price_dayslisted_outliers = px.scatter(filtered_outliers_df,
                                      )
 
 #Checkbok option to view thirs visualization with outliers removed
-outliers_2 = st.checkbox("View this chart with outliers removed")
-    if outliers_2:
-        st.plotly_chart(price_dayslisted_outliers)
+outliers_2 = st.checkbox("View this chart with outliers removed", key='checkbox_2')
+if outliers_2:
+    st.plotly_chart(price_dayslisted_outliers)
 
 
 #Fourth visualization (Prices vs Condition) for web app
