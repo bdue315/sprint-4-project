@@ -1,4 +1,4 @@
-# sprint_4_project
+# sprint-4-project
 Repo for completing Sprint 4 project
 
 This project objective was to implement all the skills obtained in the bootcamp 
